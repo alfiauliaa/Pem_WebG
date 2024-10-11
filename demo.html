@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- HEAD -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Masak-Masakkan</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="web.css">
+</head>
+
+<!-- BODY -->
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<!-- HEADER / NAVBAR -->
+    <header>
+        <div class="header-content">
+            <div class="logo">
+                <img src="foto/logo.jpeg">
+                <h1>Masak-Masakkan</h1>
+            </div>
+            <nav>
+                <!-- dari botstrap (search) -->
+            <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+                <!-- ul li untuk membuat list -->
+                <ul>
+                <!-- a untuk biar bisa dipncet -->
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#masakan">Masakan</a></li>
+                    <li><a href="#minuman">Minuman</a></li>
+                    <li><a href="#dessert">Dessert</a></li>
+                </ul>
+            </nav>
+        </div>
+        
+
+        <!-- yg bawahnya header -->
+        <div class="image-container">
+            <img src="foto/makanan.jpg"
+            class="header-image">
+            <div class="image-text">
+                <h2>Masak Apa Hari Ini?</h2>
+                <p>Sebuah Website yang menyajikan berbagai macam resep masakan dari chef terkenal</p>
+            </div>
+        </div>
+    </header>
+
+<!-- MAIN CONTENT -->
+    <main>
+
+<!-- RESEP TERBARU -->
+        <section class="recipe-section">
+            <h2>Resep Terbaru</h2>
+            <div class="recipe-grid">
+                <div class="recipe-card">
+                    <img src="foto/dimsum.jpeg" alt="Dimsum Ayam">
+                    <h3><a href="#dimsum">Dimsum Ayam</a></h3>
+                    <p>Dimsum ayam enak. Dibuat hanya menggunakan 3 bahan saja</p>
+                </div>
+                <div class="recipe-card">
+                    <img src="foto/trngbulan.jpeg" alt="Martabak Manis">
+                    <h3><a href="#mrtbkmns">Martabak Manis</a></h3>
+                </div>
+                <div class="recipe-card">
+                    <img src="foto/sosis.jpeg" alt="Sosis Bakar">
+                    <h3><a href="#sosis">Sosis Bakar</a></h3>
+                </div>
+                <div class="recipe-card">
+                    <img src="foto/macaroon.jpeg" alt="Macaroon">
+                    <h3><a href="#macaron">Macaroon</a></h3>
+                </div>
+                <div class="recipe-card">
+                    <img src="foto/risol.jpeg" alt="Risol">
+                    <h3><a href="#risol">Risol</a></h3>
+                </div>
+            </div>
+        </section>
+
+        <!-- RESEP TERPOPULER -->
+        <section class="recipe-section">
+            <h2>Resep Terpopuler</h2>
+            <div class="recipe-grid">
+                <div class="recipe-card">
+                    <img src="foto/boci.jpeg" alt="Baso Aci">
+                    <h3><a href="#boci">Baso Aci</a></h3>
+                </div>
+                <div class="recipe-card">
+                    <img src="foto/sushi.jpeg" alt="Sushi Roll">
+                    <h3><a href="#susho">Sushi Roll</a></h3>
+                </div>
+                <div class="recipe-card">
+                    <img src="foto/wonton.jpeg" alt="Wonton">
+                    <h3><a href="#wonton">Wonton</a></h3>
+                </div>
+                <div class="recipe-card">
+                    <img src="foto/nasgor.jpeg" alt="Nasi Goreng">
+                    <h3><a href="#Nasgor">Nasi Goreng</a></h3>
+                </div>
+                <div class="recipe-card">
+                    <img src="foto/geprek.jpg" alt="Ayam Geprek">
+                    <h3><a href="#geprek">Ayam Geprek</a></h3>
+                </div>
+            </div>
+        </section>
+
+<!-- TERAKHIR DILIHAT -->
+        <section class="recipe-section">
+            <h2>Terakhir Dilihat</h2>
+            <div class="recipe-grid">
+                <div class="recipe-card">
+                    <img src="foto/sushi.jpeg" alt="Sushi Roll">
+                    <h3><a href="#susho">Sushi Roll</a></h3>
+                </div>
+                <div class="recipe-card">
+                    <img src="foto/sosis.jpeg" alt="Sosis Bakar">
+                    <h3><a href="#sosis">Sosis Bakar</a></h3>
+                </div>
+                <div class="recipe-card">
+                    <img src="foto/nasgor.jpeg" alt="Nasi Goreng">
+                    <h3><a href="#Nasgor">Nasi Goreng</a></h3>
+                </div>
+                <div class="recipe-card">
+                    <img src="foto/risol.jpeg" alt="Risol">
+                    <h3><a href="#risol">Risol</a></h3>
+                </div>
+                <div class="recipe-card">
+                    <img src="foto/dimsum.jpeg" alt="Dimsum Ayam">
+                    <h3><a href="#dimsum">Dimsum Ayam</a></h3>
+                    <p>Dimsum ayam enak. Dibuat hanya menggunakan 3 bahan saja</p>
+                </div>
+            </div>
+
+<!-- TOP CHEF -->
+
+            <section class="chef">
+            <h2>Top Chef</h2>
+            <div class="rate-chef">
+                <div class="profile-chef">
+                    <img src="foto/chef juna.jpeg">
+                    <h3><a href="#profil">Chef Juna</a></h3>
+                    <p><a href="#profil"> View Profile</a></p>
+                </div>
+                <div class="profile-chef">
+                    <img src="foto/chef renata.jpeg">
+                    <h3><a href="#profil">Chef Renata</a></h3>
+                    <p><a href="#profil"> View Profile</a></p>
+                </div>
+                <div class="profile-chef">
+                    <img src="foto/chef arnold.jpeg">
+                    <h3><a href="#profil">Chef Arnold</a></h3>
+                    <p><a href="#profil"> View Profile</a></p>
+                </div>
+            </div>
+    </main>
+
+<!-- FOOTER -->
+
+    <footer>
+    <div class="footer-content">
+        <div class="footer-section about">
+            <h3>Tentang Kami</h3>
+            <p>Masak-Masakkan adalah sumber terpercaya untuk resep lezat dan inspirasi memasak sehari-hari.</p>
+        </div>
+        
+        <div class="footer-section contact">
+            <h3>Hubungi Kami</h3>
+            <p><i class="fas fa-envelope"></i> info@masak-masakkan.com</p>
+            <p><i class="fas fa-phone"></i> +62 123 456 7890</p>
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>&copy; 2024 Masak-Masakkan. Hak Cipta Dilindungi.</p>
+    </div>
+    </footer>
+</body>
+</html>

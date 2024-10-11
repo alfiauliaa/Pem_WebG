@@ -1,0 +1,221 @@
+        body {
+            font-family: Garamond, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #ff8c00;
+            color: white;
+            padding: 10px 0;
+        }
+        .header-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+
+        .logo {
+          display: flex;
+          align-items: center;
+        }
+        .logo img {
+          width: 50px;
+          height: 50px;
+          margin-right: 10px;
+        }
+        nav ul {
+          list-style-type:none;
+          padding: 0;
+          display: flex;
+        }
+        nav ul li {
+          margin-left: 20px;
+        }
+        nav ul li a {
+          color: white;
+          text-decoration: none;
+        }
+
+
+/* bwh header */
+.image-container {
+  position: relative; /* Membuat container menjadi relative untuk teks absolute */
+  width: 100%; /* memenuhi layar */
+}
+
+.header-image {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.image-text {
+  position: absolute;
+  top: 50%;
+  left: 70%;
+  color: white;
+  text-align:left;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  border-radius: 8px;
+      
+}
+
+.image-text p {
+  padding: 10px;
+  margin: 0;
+  font-size: 16px;
+}
+
+        main {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+        
+        /* yg kotak makanan */
+        .recipe-section {
+            margin-bottom: 40px;
+        }
+        .recipe-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 20px;
+        }
+        .recipe-card {
+            background-color: white;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .recipe-card img {
+            width: 100%;
+            height: 150px;
+            object-fit: cover;
+        }
+        .recipe-card h3 {
+            padding: 10px;
+            margin: 0;
+            font-size: 18px;
+            text-align: center;
+        }
+        .recipe-card p {
+          padding: 10px;
+          margin: 0;
+          font-size: 12px;
+          text-align: center;
+      }
+
+        
+        /* chef */
+        .chef {
+          margin-bottom: 40px;
+      }
+      .rate-chef {
+          display: grid;
+          grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+          gap: 150px;
+      }
+      .profile-chef {
+        background-color: white;
+        border-radius: 30px;
+        overflow: hidden;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        text-align: center; /* Memusatkan konten kartu */
+      }
+      .profile-chef img {
+        width: 200px;
+        height: 200px;
+        object-fit: cover;
+        border-radius: 50%; /* Membuat gambar bulat */
+        margin: 10px; /* Memberikan jarak di sekitar gambar */
+      }
+      .profile-chef h3 {
+          padding: 10px;
+          margin: 0;
+          font-size: 24px;
+          text-align: center;
+      }
+
+      .profile-chef p {
+        padding: 10px;
+        margin: 0;
+        font-size: 12px;
+        text-align: center;
+    }
+
+
+footer {
+  background-color: #333;
+  color: white;
+  padding: 40px 0 20px;
+  margin-top: 40px;
+}
+
+.footer-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.footer-section {
+  flex: 1;
+  margin-bottom: 20px;
+  min-width: 200px;
+}
+
+.footer-section h3 {
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+
+.footer-section ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin-bottom: 8px;
+}
+
+.footer-section ul li a {
+  color: #ddd;
+  text-decoration: none;
+}
+
+.footer-section ul li a:hover {
+  color: #ff8c00;
+}
+
+.social-icons a {
+  color: white;
+  margin-right: 10px;
+  font-size: 20px;
+}
+
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 20px;
+  padding-top: 20px;
+  border-top: 1px solid #555;
+}
+
+@media (max-width: 768px) {
+  .footer-content {
+      flex-direction: column;
+  }
+  
+  .footer-section {
+      margin-bottom: 30px;
+  }
+}
